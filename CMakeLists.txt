@@ -11,7 +11,8 @@ include_directories(Game/SDL/include)
 add_executable(${PROJECT_NAME} Game/main.cpp)
 
 target_sources(${PROJECT_NAME} PRIVATE
-    Game/src/HelloWorld.cpp
+    Game/src/Pair.cpp
+    Game/src/GameObject.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
